@@ -1,4 +1,8 @@
-    // popover
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
-});
+// $(document).ready(function () {
+//     $(".year").click(function () {
+//         $("p").hide();
+//     });
+//     $(".year").click(function () {
+//         $("p").show();
+//     });
+// });

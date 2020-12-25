@@ -1,7 +1,15 @@
 body {
     font-family: 'Martel Sans', sans-serif;
     font-size: 20px ;
+    background-color: #FFFCF5;
 }
+.col {
+    font-size: 16px;
+    color: rgb(64, 53, 71);
+    }
 .hello-wrapper, .connect-wrapper, .year-wrapper, .col-6, .projet-wrapper {
     display: flex;
+}
+.detail-list-20 {
+    display: none;
 }
