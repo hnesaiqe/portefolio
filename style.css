@@ -3,9 +3,12 @@ body {
     font-size: 20px ;
     background-color: #FFFCF5;
 }
+strong {
+    color: rgb(0, 0, 0);
+}
 .col {
     font-size: 16px;
-    color: rgb(64, 53, 71);
+    color: rgba(106, 82, 121, 0.432);
     }
 .hello-wrapper, .connect-wrapper, .year-wrapper, .col-6, .projet-wrapper {
     display: flex;

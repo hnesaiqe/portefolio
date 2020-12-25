@@ -1,8 +1,4 @@
-// $(document).ready(function () {
-//     $(".year").click(function () {
-//         $("p").hide();
-//     });
-//     $(".year").click(function () {
-//         $("p").show();
-//     });
+// $(".year").click(function () {
+//     $(".detail-list-20").toggle("slow");
+//     $(".detail-list-20").show();
 // });
