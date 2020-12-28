@@ -1,18 +1,29 @@
 body {
     font-family: 'Martel Sans', sans-serif;
-    font-size: 20px ;
+    font-size: 20px;
     background-color: #FFFCF5;
 }
+
 strong {
     color: rgb(0, 0, 0);
 }
+
 .col {
     font-size: 16px;
     color: rgba(106, 82, 121, 0.432);
-    }
-.hello-wrapper, .connect-wrapper, .year-wrapper, .col-6, .projet-wrapper {
+}
+
+.hello-wrapper,
+.connect-wrapper,
+.year-wrapper,
+.col-6,
+.projet-wrapper {
     display: flex;
 }
-.detail-list-20 {
+
+.detail-list-20,
+.detail-list-15,
+.detail-list-08,
+.detail-list-07 {
     display: none;
 }

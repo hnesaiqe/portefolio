@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  
+
 
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-    <div class="container">        
+    <div class="container">
         <!-- Présentation -->
         <div class="presentation">
             <div class="row justify-content-md-center">
@@ -33,7 +33,8 @@
                             <div class="hello-dash"><strong> &mdash;</strong> </div>
                         </div>
                         <div class="heading">
-                            "Je m'appelle <strong>HNE Saïqe, Willy,</strong> j'ai <strong>35 ans, marié.</strong> Je suis
+                            "Je m'appelle <strong>HNE Saïqe, Willy,</strong> j'ai <strong>35 ans, marié.</strong> Je
+                            suis
                             développeur Junior en formation à la CCI Formation".
                         </div>
                     </div>
@@ -58,7 +59,7 @@
                     <div class="experiences">
                         <div class="year-wrapper">
                             <div class="year-dash"><strong>&mdash;</strong></div>
-                            <div class="year" id="hide"><strong>2020</strong></div>
+                            <div class="year-xx"><strong>2020</strong></div>
                         </div>
                         <div class="detail-list-20">
                             <h4> CCI Formation en alternance / Entreprise Iaai-Events</h4>
@@ -102,9 +103,9 @@
                     <div class="experiences">
                         <div class="year-wrapper">
                             <div class="year-dash"><strong>&mdash;</strong></div>
-                            <div><strong>2015</strong></div>
+                            <div class="year-xv"><strong>2015</strong></div>
                         </div>
-                        <div class="detail-list">
+                        <div class="detail-list-15">
                             <h4>Garonne Aluminium</h4>
                             <p>8 mois (dont 2 ½ mois d’intérim avec Manpower NC)</p>
                             <p>Débiter, usiner, fabriquer, travailler sur un centre d'usinage et pose</p>
@@ -122,9 +123,9 @@
                     <div class="experiences">
                         <div class="year-wrapper">
                             <div class="year-dash"><strong>&mdash;</strong></div>
-                            <div><strong>2008</strong></div>
+                            <div class="year-viii"><strong>2008</strong></div>
                         </div>
-                        <div class="detail-list">
+                        <div class="detail-list-08">
                             <h4>Alustyl</h4>
                             <p>7 ans et 3 mois</p>
                             <p>Préparation fiche de fabrication, débiter, usiner, fabriquer, travailler sur un centre
@@ -144,11 +145,11 @@
                     <div class="experiences">
                         <div class="year-wrapper">
                             <div class="year-dash"><strong>&mdash;</strong></div>
-                            <div><strong>2007</strong></div>
+                            <div class="year-vii"><strong>2007</strong></div>
                         </div>
                         <button style="display: none; text-align: center;" class="deletteCards2015">X</button>
 
-                        <div class="detail-list">
+                        <div class="detail-list-07">
                             <h4>Aluminium Concept</h4>
                             <p>1 ans et 5 mois</p>
                             <p>Préparation fiche de fabrication, débiter, usiner, fabriquer, travailler sur un
@@ -186,13 +187,23 @@
 
 
     <script>
-        
-        $(".year").click(function () {
-                $(".detail-list-20").toggle("slow");
-                $(".detail-list-20").show();
+        // hide/show
+        $(".year-xx").click(function () {
+            $(".detail-list-20").toggle("slow");
+            $(".detail-list-20").show();
         });
-        
-       
+        $(".year-xv").click(function () {
+            $(".detail-list-15").toggle("slow");
+            $(".detail-list-15").show();
+        });
+        $(".year-viii").click(function () {
+            $(".detail-list-08").toggle("slow");
+            $(".detail-list-08").show();
+        });
+        $(".year-vii").click(function () {
+            $(".detail-list-07").toggle("slow");
+            $(".detail-list-07").show();
+        });
     </script>
 </body>
 
