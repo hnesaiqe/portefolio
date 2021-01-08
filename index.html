@@ -10,7 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 
 
     <link rel="stylesheet" href="style.css">
@@ -19,6 +22,7 @@
 
 <body>
     <div class="container">
+        <img src="images/id-photo.jpg" class="rounded mx-auto d-block" alt="id-photo">
         <!-- Présentation -->
         <div class="presentation">
             <div class="row justify-content-md-center">
@@ -40,9 +44,12 @@
                     </div>
                 </div>
                 <div class="col col-lg-2">
-                    <div class="connect-wrapper">
-                        <div class="connect-dash"><strong>&mdash;</strong></div>
-                        <div>Connect</div>
+                    <div class="contact-wrapper">
+                        <div class="contact-dash"><strong>&mdash;</strong></div>
+                        <div class="contact" id="contact">
+                            <a href="#" data-toggle="popover" title="Contact"
+                                data-content="82-76-29 saiqe.hne@gmail.com" data-placement="top">Contact</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,11 +172,56 @@
             </div>
         </div>
         <hr>
-        <!-- Projets -->
-        <div class="projets">
+        <!-- diplôme -->
+        <div class="diplome">
             <div class="row justify-content-md-center">
                 <div class="col col-lg-2">
                     <strong>03</strong>
+                    Diplôme
+                </div>
+                <div class="col-6">
+                    <div class="experiences">
+                        <div class="year-wrapper">
+                            <div class="year-dash"><strong>&mdash;</strong></div>
+                            <div class="year-iv"><strong>2004</strong></div>
+                        </div>
+                        <div class="detail-list-04">
+                            <h4>Baccalauréat Professionnel</h4>
+                            <p>Construction Aménagement Bâtiment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-2">
+                    <p>Lycée Pétro Attiti, Nouméa</p>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-2">
+                </div>
+                <div class="col-6">
+                    <div class="experiences">
+                        <div class="year-wrapper">
+                            <div class="year-dash"><strong>&mdash;</strong></div>
+                            <div class="year-ii"><strong>2002</strong></div>
+                        </div>
+                        <div class="detail-list-04">
+                            <h4>BEP / CAP </h4>
+                            <p>Bois & Matériaux associés / Menuiserie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-2">
+                    <p>Lycée Pétro Attiti, Nouméa</p>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <!-- Projets
+        <div class="projets">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-2">
+                    <strong>04</strong>
                     Projets
                 </div>
                 <div class="col-6">
@@ -182,34 +234,7 @@
                     JavaScript
                 </div>
             </div>
-        </div>
-        <hr>
-        <!-- diplôme -->
-        <div class="diplome">
-            <div class="row justify-content-md-center">
-                <div class="col col-lg-2">
-                    <strong>04</strong>
-                    Diplôme
-                </div>
-                <div class="col-6">
-                    <div class="experiences">
-                        <div class="year-wrapper">
-                            <div class="year-dash"><strong>&mdash;</strong></div>
-                            <div class="year-xx"><strong>2020</strong></div>
-                        </div>
-                        <div class="detail-list-20">
-                            <h4> CCI Formation en alternance / Entreprise Iaai-Events</h4>
-                            <p>3 mois</p>
-                            <p>Développeur Web et application Mobile</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-2">
-                    <p>Alternant Développeur Web</p>
-                </div>
-            </div>
-            
-        </div>
+        </div> -->
     </div>
 
 
@@ -230,6 +255,10 @@
         $(".year-vii").click(function () {
             $(".detail-list-07").toggle("slow");
             $(".detail-list-07").show();
+        });
+        // Popover
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
         });
     </script>
 </body>
