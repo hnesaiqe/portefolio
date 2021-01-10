@@ -8,12 +8,18 @@ strong {
     color: rgb(0, 0, 0);
 }
 .rounded{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 hr {
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.naveDate {
+    font-size: small;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .presentation{
     height: 10%;
@@ -37,4 +43,8 @@ hr {
 .detail-list-08,
 .detail-list-07 {
     display: none;
+}
+
+.card-footer {
+    font-size: xx-small;
 }

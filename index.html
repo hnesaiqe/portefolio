@@ -13,15 +13,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-
-
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body>
-    <div class="container">
+<body>       
+             
+             
+    <div class="container">  
+        <header>
+            <div class="naveDate bg-grey text-center py-3 style="display: flex;">
+                <span id="date_heure"></span>
+            </div>  
+        </header>       
         <img src="images/id-photo.jpg" class="rounded mx-auto d-block" alt="id-photo">
         <!-- Présentation -->
         <div class="presentation">
@@ -216,7 +219,7 @@
             </div>
 
         </div>
-        <hr>
+        
         <!-- Projets
         <div class="projets">
             <div class="row justify-content-md-center">
@@ -235,32 +238,14 @@
                 </div>
             </div>
         </div> -->
+        <div class="card-footer bg-grey text-center py-3">© Hne Saiqë Willy</div>
     </div>
-
-
+    <script type="text/javascript" src="script.js"></script>
     <script>
-        // hide/show
-        $(".year-xx").click(function () {
-            $(".detail-list-20").toggle("slow");
-            $(".detail-list-20").show();
-        });
-        $(".year-xv").click(function () {
-            $(".detail-list-15").toggle("slow");
-            $(".detail-list-15").show();
-        });
-        $(".year-viii").click(function () {
-            $(".detail-list-08").toggle("slow");
-            $(".detail-list-08").show();
-        });
-        $(".year-vii").click(function () {
-            $(".detail-list-07").toggle("slow");
-            $(".detail-list-07").show();
-        });
-        // Popover
-        $(document).ready(function () {
-            $('[data-toggle="popover"]').popover();
-        });
+
     </script>
+    
 </body>
+
 
 </html>
