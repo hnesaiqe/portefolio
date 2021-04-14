@@ -1,4 +1,6 @@
          // hide/show
+
+        
          $(".year-xx").click(function () {
             $(".detail-list-20").toggle("slow");
             $(".detail-list-20").show();
@@ -15,14 +17,20 @@
             $(".detail-list-07").toggle("slow");
             $(".detail-list-07").show();
         });
+
+
         
         // Popover
+
+
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
         });
         
-        
+                
         // Date et Heure
+
+
         function date_heure(id) {
             date = new Date;
             annee = date.getFullYear();
