@@ -4,13 +4,20 @@ body {
     background-color: #FFFCF5;
 }
 
+/* i {
+    height: 20px;
+    width: 20px;
+} */
+
 strong {
     color: rgb(0, 0, 0);
 }
-.rounded{
+
+.rounded {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
 hr {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -21,7 +28,8 @@ hr {
     margin-top: 1%;
     margin-bottom: 1%;
 }
-.presentation{
+
+.presentation {
     height: 10%;
 }
 
@@ -37,6 +45,7 @@ hr {
 .projet-wrapper {
     display: flex;
 }
+
 .detail-list-21,
 .detail-list-20,
 .detail-list-15,
